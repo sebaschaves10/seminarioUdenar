@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pagina con Materialize</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/jquery-ui.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/materialize.min.css'>
+    
+    <script src="js/jquery.js"></script>
+    <script src='js/materialize.min.js'></script>
+    <script src="js/misfunciones.js"></script>
+</head>
+
+<body>
+
+    <!-- Bara de Navegacion -->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">Ingenieria</a></li>
+        <li><a href="#!">Artes</a></li>
+        <li><a href="#!">Administracion</a></li>
+    </ul>
+    <nav>
+        <div class="nav-wrapper">
+        <a href="index.html">Inicio</a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="general.html">General</a></li>
+            <li><a href="programas.html">Programas Academicos</a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Facultades<i class="material-icons right">arrow_drop_down</i></a></li>
+        </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+              <ul class="tabs">
+                <li class="tab col s3"><a href="#sistemas">Ingenieria de Sistemas</a></li>
+                <li class="tab col s3"><a class="active" href="#civil">Ingenieria Civil</a></li>
+                <li class="tab col s3"><a href="#electronica">Ingenieria Electronica</a></li>
+                <li class="tab col s3"><a href="#mercadeo">Mercadeo</a></li>
+              </ul>
+            </div>
+            <div id="sistemas" class="col s12">
+                Ingenieria de Sistemas
+                <p>
+                    El programa de Ingenieria de Sistemas de la Universidad de Narino...
+                </p>
+
+                <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Mas informacion</a>
+
+                <!-- Modal Structure -->
+                <div id="modal1" class="modal">
+                    <div class="modal-content">
+                    <h4>Sistemas</h4>
+                    <p>Registro de alta calidad, 10 semestres</p>
+                    </div>
+                    <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Aceptar</a>
+                    </div>
+                </div>
+
+            </div>
+            <div id="civil" class="col s12">
+                Ingenieria Civil
+            </div>
+            <div id="electronica" class="col s12">
+                Ingenieria Electronica
+            </div>
+            <div id="mercadeo" class="col s12">
+                Mercadeo
+            </div>
+        </div>
+    </div>
