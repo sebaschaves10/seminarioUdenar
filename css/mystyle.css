@@ -1,0 +1,63 @@
+#titulo,
+#ganadores
+{
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+}
+
+#intro,
+#sitios
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#prod1Img,#milanImg,#liverpoolImg,#barcelonaImg
+{ 
+    
+    width: 50px; 
+    height: 50px; 
+    padding: 0.5em; 
+}
+
+#header
+{
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+}
+
+.toggler 
+{ 
+    width: 500px; 
+    height: 200px; 
+    position: relative;
+}
+
+#efectoronaldo,#efectomessi 
+{ 
+    padding: .5em 1em; 
+    text-decoration: none; 
+}
+
+#effectRonaldo,#effectMessi
+{ 
+    width: 240px; 
+    height: 170px; 
+    padding: 0.4em; 
+    position: relative; 
+    background: #fff; 
+}
+
+#effectRonaldo,#effectMessi h3 
+{ 
+    margin: 0; 
+    padding: 0.4em; 
+    text-align: center; 
+}
+
+#comentarios
+{
+    width:1000px;
+    height: 100px;
+}

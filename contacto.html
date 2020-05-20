@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pagina con Materialize</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/jquery-ui.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/materialize.min.css'>
+    
+    <script src="js/jquery.js"></script>
+    <script src='js/materialize.min.js'></script>
+    <script src="js/misfunciones.js"></script>
+</head>
+
+<body>
+  
+
+    <!-- Bara de Navegacion -->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!"><i class="material-icons">account_circle</i>Entrar</a></li>
+        <li><a href="#!"><i class="material-icons">add_shopping_cart</i>Carrito</a></li>
+        <li><a href="#!"><i class="material-icons">place</i>Sigue tu pedido</a></li>
+    </ul>
+    <nav>
+        <div class="nav-wrapper">
+        <a href="index.html">INICIO</a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="contacto.html">CONTACTO</a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">MAS<i class="material-icons right">arrow_drop_down</i></a></li>
+        </ul>
+        </div>
+    </nav>
+
+    <h4>INFORMACION DE lA TIENDA</h4>
+    <ul class="collapsible">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">call</i>Contacto</div>
+          <div class="collapsible-body">
+            <span>
+              <p>Solo WhatsApp:</p>
+              <p>(304) 364-4028</p>
+            </span>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">place</i>Ubicacion</div>
+          <div class="collapsible-body">
+            <span>
+            <p>CALLE 45 # 53 - 50 LC 1159</p>
+            <p>Centro Comercial Gran Plaza</p>
+            <p>Medellín</p>
+            <p>Colombia</p>
+            </span>
+        </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">mail</i>Correo</div>
+          <div class="collapsible-body">
+            <span>
+              <p>Escríbenos:</p>
+              <p>servicioalcliente@xhobbies.co</p>
+            </span>
+          </div>
+        </li>
+      </ul>
